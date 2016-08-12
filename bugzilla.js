@@ -127,7 +127,7 @@ function setup_queries() {
     chfield: "[Bug creation]",
     chfieldto: "Now",
     query_format: "advanced",
-    chfieldfrom: "2016-06-01",
+    chfieldfrom: "2016-05-01",
   }, common_params);
   document.getElementById("triage-list").href = "https://bugzilla.mozilla.org/buglist.cgi?" + to_triage.toString();
   populate_table($("#need-decision"), to_triage, $("#need-decision-marker"), !!selected.length);
